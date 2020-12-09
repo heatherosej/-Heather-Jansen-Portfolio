@@ -502,7 +502,7 @@ h3 {
   margin-left: 1.25rem;
   margin-right: 1.25rem;
 }
-.work, .footerbottom {
+.work, .footerbottom, .wrapper, #footer {
   overflow: hidden;
 }
 /* closing brackt for media query */
