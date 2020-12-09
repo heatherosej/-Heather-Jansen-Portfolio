@@ -427,6 +427,7 @@ h3 {
   bottom: -45px;
   margin-left: -10px;
   z-index: -1;
+  overflow-x: hidden;
 }
 
 @media only screen and (max-width: 825px){
