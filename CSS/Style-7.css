@@ -279,6 +279,7 @@ h3 {
       justify-items: start;
       position: absolute;
       z-index: 0;
+      overflow-x: hidden;
   }
   
   .test3:after {
