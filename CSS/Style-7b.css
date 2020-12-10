@@ -388,8 +388,9 @@ h3 {
 /* .xy {
     position: relative;
     bottom: 0;
-    /* margin-bottom: -100px; 
+    margin-bottom: -100px; 
    } */
+
 .footer {
   background-color:#FCB140;
   display: flex;
@@ -401,7 +402,7 @@ h3 {
   /* min-height: 150px; */
   position: relative;
   /* bottom: -100px; */
-  margin: 0px -5px -5px -5px; 
+  margin: 0px -10px -5px -5px; 
   z-index: 1;
   /* border: blue 2px solid; */
 }
@@ -540,6 +541,7 @@ margin: 0;
   align-items: flex-start;
   width: 100vw;
   margin: 0;
+  margin-left: 25px;
   /* margin-right: -20px; */
 }
 
@@ -549,7 +551,7 @@ margin: 0;
   /* margin-right: -20px; */
 }
 .copyright {
-  margin-left: 45px;
+  margin-left: 25px;
 } 
 
 
