@@ -399,6 +399,10 @@ h3 {
   margin-right: 50px;
   transform: rotate(-1.5deg);
 }
+.footerMobile{
+  display: none;
+}
+
 .morestuff{
   background-color: black;
   position: absolute;
@@ -502,9 +506,98 @@ h3 {
   margin-left: 1.25rem;
   margin-right: 1.25rem;
 }
-.work, .footerbottom, .wrapper, #footer {
+.work, .footerbottom, #footer {
   overflow: hidden;
 }
+
+.wrapper{
+  grid-template-columns: 100%;
+  grid-template-rows: [row1] 206px auto [row2] 115px auto [row3]236px auto [row4] 200px auto [row5] 189px auto [row6] 115px auto [end];
+}
+.a, .f, .g {
+  display: none;
+}
+.c{
+  grid-column: 1;
+  grid-row: row1;
+  justify-self: stretch;
+}
+.b{
+  grid-column: 1;
+  grid-row: row2;
+  justify-self: center;
+  align-self: center;
+}
+
+.test:after{
+  top: 220px;
+}
+.d{
+  grid-column: 1;
+  grid-row: row3;
+  justify-self: stretch;
+  margin-right: 0;
+}
+.e{
+  grid-column: 1;
+  grid-row: row4;
+  width: 90%;
+}
+.h{
+  grid-column: 1;
+  grid-row: row6;
+  justify-self: center;
+  align-self: center;
+}
+.i{
+  grid-column: 1;
+  grid-row: row5;
+  justify-self: stretch;
+}
+
+
+/* attempt at incorporating background image on footer */
+
+.footer, .footerbottom, .morestuff {
+  display: none;
+}
+
+.footerMobile{
+  display: block;
+  background-image: url(../Images/footer-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  min-height: 312px;
+  width: 100%;
+  height: auto;
+}
+
+#footerMobile a{
+  color: #000000;
+  font-size: 17px;
+  font-weight: 500;
+  text-decoration: none;
+  padding-left: 20px;
+}
+.morestuffMobile {
+  padding: 1.25rem 1rem 2rem;
+  text-align: center;
+}
+#morestuffMobile{
+  color: white;
+  font-family: 'TradeGothicLTStd-Extended', sans-serif;
+  font-size: 1.25em;
+  line-height: 3em;
+  text-decoration: none;
+}
+
+.rightfooter{
+  float: right;
+  margin-bottom: 1em;
+}
+
+
 /* closing brackt for media query */
 }
 
