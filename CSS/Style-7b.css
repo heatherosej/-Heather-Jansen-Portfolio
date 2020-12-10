@@ -459,7 +459,7 @@ h3 {
   background-color: black;
   transform:  translateY(-36px);
   min-height: 1400px;
-  width: 110%;
+  width: 825px;
   margin-left: -30px;
   /* margin-right: -20px; */
 }
@@ -521,6 +521,10 @@ h3 {
 
 .footerbottom, .wrapper, .work {
   overflow: hidden;
+}
+
+.morestuff {
+    width: 825px;
 }
 
 .footer {
