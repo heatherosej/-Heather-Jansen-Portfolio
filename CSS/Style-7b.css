@@ -530,14 +530,14 @@ h3 {
 }
 
 .morestuff {
-width: 825px;
+width: 425px;
 }
 
 .footer {
   display:flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 825px;
+  width: 425px;
   /* margin-right: -20px; */
 }
 
