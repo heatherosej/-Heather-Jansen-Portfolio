@@ -463,6 +463,11 @@ h3 {
   margin-left: -30px;
   /* margin-right: -20px; */
 }
+
+#logo{
+    padding: 15px;
+}
+
 .leftLinks{
  align-self: center;
 }
@@ -524,7 +529,7 @@ h3 {
 }
 
 .morestuff {
-    width: 825px;
+width: 825px;
 }
 
 .footer {
