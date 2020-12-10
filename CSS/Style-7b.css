@@ -541,17 +541,17 @@ margin: 0;
   align-items: flex-start;
   width: 100vw;
   margin: 0;
-  margin-left: 25px;
   /* margin-right: -20px; */
 }
 
 .leftfooter {
   display:flex;
   flex-direction: column;
+  margin-left: 25px;
   /* margin-right: -20px; */
 }
 .copyright {
-  margin-left: 25px;
+  margin-left: 45px;
 } 
 
 
