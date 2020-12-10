@@ -16,14 +16,13 @@ html, body{
 body {
   font-family: 'work-sans', sans-serif;
   width: 100vw;
-  border-style: solid;
-  border-color: transparent;
   overflow-x: hidden; 
   /* ÷last line is not cross browser compatabile */
 }
 
 #all-nav {
 position: fixed;
+top: 0;
 background-color: black;
 display: flex;
 width: 101vw;
@@ -362,6 +361,9 @@ h3 {
     grid-row: row 3;
   }
   
+.wrapperMobile{
+  display: none;
+}
 
 .morestuff{
     background-color: black;
@@ -538,7 +540,7 @@ h3 {
   font-size: 10pt;
 }
 
-.footerbottom, .wrapper, .work {
+.footerbottom, .work {
   overflow: hidden;
 }
 
@@ -570,9 +572,23 @@ margin: 0;
   padding-bottom: 20px; 
 } 
 
-
-
-
+.wrapper{
+  display: none;
+}
+.wrapperMobile{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.d{
+  margin-right:0;
+}
+.b, .e, .h{
+  padding-bottom: 1em;
+  padding-left: 2em;
+}
+/* closing bracket for media query -- don't delete */
+}
 
 
 
