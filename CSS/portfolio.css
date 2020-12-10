@@ -203,17 +203,13 @@ z-index: 999;
   overflow: hidden;
 }
 
-.morestuff {
-width: 100vw;
-margin: 0;
-}
-
 .footer {
   display:flex;
   flex-direction: column;
   align-items: flex-start;
   width: 100vw;
   margin: 0;
+  margin-left: -3px;
   /* margin-right: -20px; */
 }
 
