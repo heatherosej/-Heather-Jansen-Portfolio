@@ -467,7 +467,7 @@ h3 {
 
 #logo{
     padding: 5px;
-    Margin-top: 31px; 
+    Margin-top: 11px; 
 }
 
 .leftLinks{
@@ -547,11 +547,15 @@ margin: 0;
 .leftfooter {
   display:flex;
   flex-direction: column;
-  margin-left: 25px;
+  margin-left: 5px;
   /* margin-right: -20px; */
 }
 .copyright {
   margin-left: 45px;
+  font-size: 12px;
+  margin-top: 20px;;
+  margin-right: 40px; 
+  padding-bottom: 20px; 
 } 
 
 
