@@ -461,12 +461,12 @@ h3 {
   transform:  translateY(-36px);
   min-height: 1400px;
   width: 100vw;
-  margin-left: -30px;
-  /* margin-right: -20px; */
+  margin-left: -20px;
+  margin-right: -20px;
 }
 
 #logo{
-    padding: 25px;
+    padding: 5px;
     Margin-top: 31px; 
 }
 
