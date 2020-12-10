@@ -512,7 +512,7 @@ h3 {
 
 .wrapper{
   grid-template-columns: 100%;
-  grid-template-rows: [row1] 206px auto [row2] 115px auto [row3]236px auto [row4] 200px auto [row5] 189px auto [row6] 115px auto [end];
+  grid-template-rows: [row1] 206px auto [row2] 125px auto [row3]236px auto [row4] 200px auto [row5] 189px auto [row6] 115px auto [end];
 }
 .a, .f, .g {
   display: none;
@@ -556,7 +556,7 @@ h3 {
 }
 
 
-/* attempt at incorporating background image on footer */
+/* attempt at incorporating background image on footer 
 
 .footer, .footerbottom, .morestuff {
   display: none;
@@ -595,11 +595,8 @@ h3 {
 .rightfooter{
   float: right;
   margin-bottom: 1em;
-}
+} */
 
 
 /* closing brackt for media query */
 }
-
-/* check/adjust the margins for rgraphic, CIRCLEL
-and mobileFlex */
