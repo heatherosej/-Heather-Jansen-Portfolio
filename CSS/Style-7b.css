@@ -461,6 +461,7 @@ h3 {
   min-height: 1400px;
   width: 103%;
   margin-left: -30px;
+  margin-right: -20px;
 }
 .leftLinks{
  align-self: center;
@@ -526,11 +527,13 @@ h3 {
   display:flex;
   flex-direction: column;
   align-items: flex-start;
+  margin-right: -20px;
 }
 
 .leftfooter {
   display:flex;
   flex-direction: column;
+  margin-right: -20px;
 }
 .copyright {
   margin-left: 45px;
