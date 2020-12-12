@@ -147,7 +147,7 @@ z-index: 999;
 .rgraphic{
   display: flex; 
   width: 15em;
-  margin-top: -70rem;
+  margin-top: -43rem;
   margin-right: -6.5rem;
 }
 #CIRCLE {
@@ -186,7 +186,7 @@ z-index: 999;
   max-width: 350px;
   height: auto;  
   margin-left: 10px;
-  z-index: -1;
+  z-index: -1;}
 
 #name {font-size: 30px;
   font-family: 'TradeGothicLTStd-BoldExt', sans-serif;
@@ -266,7 +266,7 @@ h3 {
     content: "";
     border: 0.5em solid #BEE1D6;
     height: 0px;
-    width: 300px;
+    width: 400px;
     position: absolute;
     margin-top: 2em;
     top: 1em;
@@ -276,7 +276,7 @@ h3 {
       content: "";
       border:0.5em solid #BEE1D6;
       height: 0px;
-      width: 570px;
+      width: 595px;
       margin-left: -200px;
       margin-top: 2em;
       justify-items: start;
