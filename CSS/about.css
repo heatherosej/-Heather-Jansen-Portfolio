@@ -149,22 +149,21 @@ z-index: 999;
 .rgraphic{
   display: flex; 
   width: 15em;
-  margin-top: -55rem;
-  margin-right: -6.5rem;
+  margin-top: -26em;
+  margin-right: 6em;
 }
-#CIRCLE {
-  width: 100%;
-  min-width: 200PX;
-  max-width: 350px;
-  height: auto;
-  transition-duration: 1.4s;
-  transition-property: transform;
+#triangle {
+  width: 200%;
+  transform: rotate(90deg);
+  margin-right: -15.5rem;
+  /* transition-duration: 1.4s;
+  transition-property: transform; */
 }
-#CIRCLE:hover {
+/* #triangle:hover {
   transform: rotate(120deg);
-  -webkit-transform: rotate(120deg);
-}
-.copyarea {
+  -webkit-transform: rotate(120deg); */
+
+.brag{
   display: flex; 
   flex-direction: column;
   width: 30em;
@@ -195,7 +194,7 @@ z-index: 999;
   /* line-height: 0.5em; */
 }
 #mission {
-  font-size: large;  
+  font-size: 20px; 
 }
 #PD{font-size: 30px;
     font-family: 'TradeGothicLTStd-Extended', sans-serif;
