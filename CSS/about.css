@@ -82,7 +82,8 @@ z-index: 999;
  margin-right: 30px; 
   }
 
-.leftlinks{margin-top: 100px;  
+.leftlinks{
+  margin-top: 100px;  
 }
 
 .RightLinks{ 
@@ -94,7 +95,8 @@ z-index: 999;
   justify-content: flex-end;
 }
 
-.topnav-right{margin-right: 50px;
+.topnav-right{
+  margin-right: 50px;
 }
 
 .resume{font-size: 15px;
@@ -112,7 +114,10 @@ z-index: 999;
 #phone {
   font-size: 23px;
 }
-
+.contentwrapper{
+  display: flex;
+  position: relative;
+}
 .allcontent{
   display: flex;
   flex-direction: row;
@@ -149,7 +154,7 @@ z-index: 999;
 .brag{
   display: flex; 
   flex-direction: column;
-  width: 80em;
+  width: 60em;
   justify-content: center;
   z-index: 0;
   margin-top: 10em;
@@ -157,18 +162,24 @@ z-index: 999;
 
 .logobox, .logoMobile{ 
   display: flex; 
- /*  flex-direction: column;
+  flex-direction: column;
   align-items: flex-start;
-  margin: 25px 0px 100px 20px; */
-  width: 15em; 
+  position: relative;
+  /* margin: 25px 0px 100px 20px; */
+  width: 20em; 
   margin-top: 4em;
   margin-right: -8em;
 }
+
 .mylogo{
   /* position: relative;
   top: 0;
   left: 0; */
+  /* display: flex;
+  flex-direction: column; */
+  /* justify-content: space-around; */
 }
+
 /* #charger {
   width: 22em;
   /* min-width: 175pX;
@@ -186,6 +197,7 @@ z-index: 999;
   height: auto;  
   margin-left: 12px;
   margin-right:0;
+  position: absolute;
  /* position: relative; */
  /* top: 1em;
  left: 1em; */
@@ -203,18 +215,19 @@ z-index: 999;
   z-index: -1;
 }
 .rgraphic{
-  position: fixed;
-  display: flex;
-  /* width: 10em;
-  margin-top: -52.5em;
-  /* margin-right: 1em;
-  position: relative;
+  position: absolute;
+  top: 2.5em;
+  right: 0;
+  /* display: flex;  */
+  width: 15em;
+  /* margin-top: -52.5em;
+  /* margin-right: 1em;*/
   /* overflow-x: hidden; */
 }
 #triangle {
   width: 125%;
   transform: rotate(90deg);
-  margin-right: -3em;
+  /* margin-right: -3em; */
   /* transition-duration: 1.4s;
   transition-property: transform; */
 }
