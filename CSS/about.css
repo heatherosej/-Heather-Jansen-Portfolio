@@ -176,15 +176,21 @@ z-index: 999;
 
  #charger {
    z-index: -1;
-   width: 10em;
+   width: 19em;
    margin-left: 2em;
+   transition: all 6s cubic-bezier(0,1,.98,0);
  }
+ 
+#charger:hover {
+  transition: scale(1.75) rotate(180deg);
+  -webkit-transform: scale(1.75) rotate(180deg);
 
+}
 #textlogo {
   z-index: 0;
   width: 9.5em;
-  margin-top: -10.6em;
-  margin-left: 2.25em;
+  margin-top: -14.6em;
+  margin-left: 6.25em;
   position: absolute;
 }
 
@@ -195,19 +201,19 @@ z-index: 999;
   border: grey 1px solid;
   height: auto;  
   margin-left: 4em;
-  margin-top: 8em;
+  margin-top: 5em;
   margin-right:0;
   z-index: -1;
 }
 .rgraphic{
   position: absolute;
-  top: 2.5em;
-  right: 1.25em;
+  top: 4.05em;
+  right: -4.75em;
   width: 15em;
   /* border: 2px solid violet; */
 }
 #triangle {
-  width: 125%;
+  width: 75%;
   transform: rotate(90deg);
   /* margin-right: -3em; */
   /* transition-duration: 1.4s;
