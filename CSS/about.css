@@ -176,7 +176,7 @@ z-index: 999;
 .rgraphic{
   position: fixed;  
   right: -4em;
-  top: 4em;
+  top: 3.75em;
   width: 15em;
   /* border: 2px solid violet; */
 }
