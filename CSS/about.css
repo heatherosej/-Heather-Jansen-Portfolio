@@ -169,7 +169,6 @@ z-index: 999;
   position: relative;
   align-items: flex-end;
   width: 30em; 
-  margin-right: -8em;
   /* border: 2px solid yellowgreen; */
 }
 
@@ -178,6 +177,7 @@ z-index: 999;
   right: -4em;
   top: 3.75em;
   width: 15em;
+  height: auto; 
   /* border: 2px solid violet; */
 }
 #triangle {
@@ -186,8 +186,15 @@ z-index: 999;
   max-width: 19EM;
   transform: rotate(90deg);
 }
-
 #aiga {
+  border: grey 1px solid;
+  width: 100%;
+  height: auto; 
+  max-width: 75%; 
+  margin-top: 20em;
+  /* z-index: -1; */
+}
+/* #aiga {
   width: 100%;
   min-width: 2em;
   max-width: 17EM;
@@ -197,7 +204,7 @@ z-index: 999;
   margin-right: 15em;
   margin-top: 26em;
   z-index: -1;
-}
+} */
 
 #name {font-size: 30px;
   font-family: 'TradeGothicLTStd-BoldExt', sans-serif;
@@ -213,43 +220,80 @@ h3 {
   font-family: 'TradeGothicLTStd-boldExt', sans-serif;
   font-size: 22px;
 }
-.ethics{
- display: flex;
- width: 100%;
-  background-color: #fff;
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
-  z-index: 0;
-  position: relative;
 
+/* display: flex;
+  flex-direction: row;
+  background-color: white;
+  justify-content: space-around;
+  margin-top: 8em;
+  width: 100vw; 
+  max-height: 860px; 
+ */
+
+.ethics{
+  display: flex; 
+  position: relative;
 }
-.column1{
-  /* margin-left: 13.5em; */
+
+.wrap{
+  display: flex;
+  width: 100%;
+   background-color: #fff;
+   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
+   z-index: 0;
+   position: relative;
+   justify-content: space-around;
 }
+.column0{ 
+  margin-top: 4em;
+  display: flex; 
+  width:13.5em;
+}
+.column1{ 
+  /* margin-top: 1em; */
+  display: flex; 
+  width: 52em; 
+  flex-direction: column; 
+  align-items: flex-start;
+  margin-left: -10em;
+}
+
+.column2{ 
+  margin-top: 2em;
+  display: flex; 
+  width: 20em; 
+  margin-right: 4em;
+  margin-left: -10em;
+  }
 
 #processimg {
-  width: 100%;
+  width: 115%;
   height: auto;
   min-width: 5em;
-  max-width: 15em;
-  
+  margin-left: -10em;
+  margin-top: 2em;
+  margin-bottom: 4em;
 }
+
 .headline{
   z-index:1;
     font-family: ocr-a-std, monospace;
     font-style: normal;
     font-size: 20px;
     z-index: 1;
-  
+    margin-left: -8em;
 }
+
 .headline:after {
   content: "";
   border: 0.5em solid #BEE1D6;
   height: 0px;
   width: 400px;
   position: absolute;
-  margin-top: 2em;
-  top: 1em;
-  z-index: 0;
+  margin-top: .75em;
+  /* top: 0.25em; */
+  margin-left: -10em;
+  z-index: -1;
 }
 .xy {
     position: relative;
